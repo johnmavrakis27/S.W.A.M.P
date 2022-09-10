@@ -1,7 +1,7 @@
 # fast_and_vicious.
 This is a project that will attend the WRO 2022 future engineers competition  
 # Content
-t-photos contains 2 photos of the team (an official one and one funny photo with all team members)
+T-photos contains 2 photos of the team (an official one and one funny photo with all team members)
 
 v-photos contains 6 photos of the vehicle (from every side, from top and bottom)
 
