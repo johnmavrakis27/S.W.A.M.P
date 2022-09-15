@@ -1,0 +1,4 @@
+The diagramm depicts the power distribution in the Shrek v2ᵀᴹ car.
+The LiPo battery powers the Motor Driver and the Step-Down Converter.
+The Motor Driver powers the DC Motor.
+The Step-Down Converter powers the Jetson Nano, the Servo Motor, the Ultrasonic and Color Sensors and the BBC Micro:Bit controller
