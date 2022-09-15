@@ -1,5 +1,31 @@
 Due to limitations in the application used to make the connections lay out we need to make some clarifications on the devicies shown in the scheme 
-because the program did not have the devices we are actually using
+because the program did not have the devices we are actually using so we had to replace them with similar devices that were in the program
 
-The following devices are Arduino Nano is actually the Jetson Nano
-The
+The following devices are changed
+The Arduino Nano is the Jetson Nano
+The Arduino Uno is the BBC Micro:Bit
+
+The Proucts we used to create Shrek v2 are the following:
+Jetson Nano: It runs the main algorthims for both runs as well as the algorithm used to take photos for the AI training process
+
+BBC Micro:Bit: Controls the servo motor and communicates with the Jetson with serial communication. 
+               Also used to connect with the joystick during the AI training process for Run 2
+               
+Raspberry Cam v2: Takes the photos that are used in the AI algorithm to decide the turn direction of the car
+
+11.1V LiPo Battery: Powers everything
+
+BMMISO Compass: Used in Run 1 to read the direction the car is facing and helps it stay in a straght line
+                in between the corrner sections as well as reach the desiered angle when turning
+
+GROOVE Color Sensor: Used in Run 1 to see the colored lines and let the car know that it is entering a corner
+
+HC-SR04 Ultrasonic Sensors: One in either side of the car. Used in Run 1 to see the cars distance from the side walls
+
+OLED Display: Displays the menu
+
+Step-Down Converter: 
+
+Servo Motor
+
+DC Motor
