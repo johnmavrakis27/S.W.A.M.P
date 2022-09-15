@@ -3,12 +3,12 @@ because the program did not have the devices we are actually using so we had to 
 
 The following devices are changed
 The Arduino Nano is the Jetson Nano
-The Arduino Uno is the BBC Micro:Bit
+The Arduino Uno is the BBC Micro:Bit Controller
 
 The Proucts we used to create Shrek v2 are the following:
 Jetson Nano: It runs the main algorthims for both runs as well as the algorithm used to take photos for the AI training process
 
-BBC Micro:Bit: Controls the servo motor and communicates with the Jetson with serial communication. 
+BBC Micro:Bit Controller: Controls the servo motor and communicates with the Jetson with serial communication. 
                Also used to connect with the joystick during the AI training process for Run 2
                
 Raspberry Cam v2: Takes the photos that are used in the AI algorithm to decide the turn direction of the car
