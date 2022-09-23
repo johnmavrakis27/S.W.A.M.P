@@ -1,0 +1,6 @@
+{"data": "red1", "turn": 1, "hmin": 0, "hmax": 6, "smin": 49, "smax": 171, "vmin": 91, "vmax": 156}
+{"data": "red2", "turn": 1, "hmin": 174, "hmax": 179, "smin": 49, "smax": 171, "vmin": 91, "vmax": 156}
+{"data": "green", "turn": -1, "hmin": 60, "hmax": 86, "smin": 111, "smax": 255, "vmin": 58, "vmax": 255}
+{"data": "blue_line", "min_area": 100, "turn": -1, "hmin": 87, "hmax": 142, "smin": 7, "smax": 98, "vmin":80, "vmax": 140}
+{"data": "orange_line", "min_area": 100, "turn": 1, "hmin": 7, "hmax": 19, "smin": 59, "smax": 147, "vmin": 110, "vmax": 169}
+{"data": "wall", "hmin": 0, "hmax": 179, "smin": 0, "smax": 64, "vmin": 0, "vmax": 79}

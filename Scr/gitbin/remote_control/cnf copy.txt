@@ -1,0 +1,4 @@
+{"data": "red1", "min_area": 500, "turn": 1, "hmin": 0, "hmax": 18, "smin": 73, "smax": 255, "vmin": 66, "vmax": 255}
+{"data": "red2", "min_area": 500, "turn": 1, "hmin": 166, "hmax": 179, "smin": 87, "smax": 255, "vmin": 78, "vmax": 255}
+{"data": "green", "min_area": 1000, "turn": -1, "hmin": 52, "hmax": 100, "smin": 7, "smax": 255, "vmin": 20, "vmax": 255}
+{"data": "blue", "min_area": 500, "turn": -1, "hmin": 60, "hmax": 107, "smin": 199, "smax": 255, "vmin": 96, "vmax": 255}
