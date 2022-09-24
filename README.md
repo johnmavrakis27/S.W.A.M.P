@@ -24,6 +24,8 @@ Now the training aspect of our program is subdivided to these lesser programs
 1.	mb_joystick
 2.	mb_receiver
 3.	remote_control	
+
+
 Now we will go over what these parts, do how they interact with the robot and what is the process to build/compile/upload the code to the vehicle’s controllers.
 Firstly, we will look at how we trained our A.I. The mb_joystick is the program that runs the microbit joystick to control the robot in training mode. More
 specifically, it uses radio signals to communicate with the microbit in our robot in cohesion with the mb_receiver program (more on that later) and using a joystick,
