@@ -35,7 +35,7 @@ we are able to steer our robot in the correct way. The mb_receiver is the progra
 applies them to the drive motors. Finally, the remote_control program run on jetson nano, collects all the data sent by the joystick and the receiver and using the
 camera it takes pictures. More notably using the data that it has collected it moves the vehicle according to them taking 300 photos per minute, saving them in the
 correct file based on the steering values the robot had when it took the picture. Using these three programs we run different scenarios on the track to get a good
-sample size. After that was done, we used the AI procedure by NVIDIA (click here to see it) to train our model.
+sample size. After that was done, we used the AI procedure by NVIDIA ([click here to see it](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md)) to train our model.
 Now that we covered how we built our data base let’s see how the main program runs.
 Its main utility is to use the classification training model (onnx) to drive the car. It achieves that by comparing the frame the robot is seeing to its model and
 adjusts its steering accordingly. 
