@@ -1,0 +1,9 @@
+1. Descr: left_duty_value, center_duty_value, right_duty_value
+servo, 50, 70, 85
+2. Descr: speed percent %
+DC, 60
+3. Descr: orange_hmin, orange_hmax, orange_smin, orange_smax, orange_vmin, orange_vmax, blue_hmin, blue_hmax, blue_smin, blue_smax, blue_vmin, blue_vmax
+color, 14, 32, 38, 56, 179, 230, 161, 169, 68, 89, 183, 241
+
+
+
