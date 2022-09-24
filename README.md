@@ -1,4 +1,4 @@
-# fast_and_vicious.
+# S.W.A.M.P
 This is a project that will attend the WRO 2022 future engineers competition  
 # Content
 T-photos contains 2 photos of the team (an official one and one funny photo with all team members)
@@ -18,7 +18,7 @@ training_photos_for_ai: includes an older version of the programm used to train 
 # Introduction
 WRO Future Engineers, S.W.A.P Introduction 
 Our program consists of 2 main parts:
-1.	Swamp
+1.	S.W.A.M.P
 2.	Training 
 
 
