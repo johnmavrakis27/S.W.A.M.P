@@ -24,7 +24,7 @@ HC-SR04 Ultrasonic Sensors: One in either side of the car. Used in Run 1 to see 
 
 OLED Display: Displays the menu
 
-Step-Down Converter: 
+Step-Down Converter: Used to lower the voltage sent to the main motor from 12V to 5V
 
 Servo Motor
 
