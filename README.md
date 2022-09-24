@@ -14,3 +14,5 @@ src contains code of control software for all components which were programmed t
 models is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 
 training_photos_for_ai: includes an older version of the programm used to train the A.I. 
+
+# Introduction
