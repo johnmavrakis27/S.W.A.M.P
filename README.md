@@ -23,9 +23,9 @@ Our program consists of 2 main parts:
 
 
 Now the training aspect of our program is subdivided to these lesser programs 
-1.	mb_joystick
-2.	mb_receiver
-3.	remote_control	
+1.	mb_joystick.py
+2.	mb_receiver.py
+3.	remote_control.py	
 
 
 Now we will go over what these parts, do how they interact with the robot and what is the process to build/compile/upload the code to the vehicle’s controllers.
