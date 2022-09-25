@@ -39,4 +39,17 @@ sample size. After that was done, we used the AI procedure by NVIDIA ([click her
 
 Now that we covered how we built our data base let’s see how the main program runs.
 Its main utility is to use the classification training model (onnx) to drive the car. It achieves that by comparing the frame the robot is seeing to its model and
-adjusts its steering accordingly. 
+adjusts its steering accordingly.A big advantage of the A.I. solution is that we don’t have to rely on sensors. We only need the camera. Another advantage is that if you exclude the training prosses of the A.I. the program is really simplistic
+
+Program specific analysis:
+Mb_joystick.py: contains:
+ main.py: controls the speed of the vehicle using the analog joystick. It also controls the steering of it, and it can also stop the vehicle from moving 
+Mb_reciever.py: contains:
+cnf.txt: it’s a text file which incudes values for the different motors of the vehicle, their speed and different color values 
+dc.py: it reads the values of the cnf file and can start, stop and set the direction of the robot as well as input new values to the cnf file 
+jetson.py: it sends a list of number to jetson and returns the valid list of int numbers
+servo.py: after reading the cnf file it can steer the robot. It can also smooth steer the vehicle meaning that in case there are drastically different steer values the transition for one to another will be done in a slower pace to allow the A.I. to correct itself.
+main.py: after establishing connection with the microbit on the joystick it awaits the messages it will receive from the joystick and acts according to those.
+Remote_control.py contains:
+Cnf.txt: it’s a text file which includes values for the pillars as well as the blue and orange line
+
