@@ -63,3 +63,45 @@ Remote_control.py contains:
 
 Cnf.txt: it’s a text file which includes values for the pillars as well as the blue and orange line
 
+dc.py: it reads the values of the cnf file and can start, stop, and set the direction of the robot as well as input new values to the cnf file 
+
+jetson.py: it sends a list of number to jetson and returns the valid list of int numbers
+
+servo.py: after reading the cnf file it can steer the robot. It can also smooth steer the vehicle meaning that in case there are drastically different steer values the transition for one to another will be done in a slower pace to allow the A.I. to correct itself.
+
+main.py: after establishing connection with the microbit on the joystick it awaits the messages it will receive from the joystick and acts according to those.
+
+remote_control contains:
+
+cnf.txt: it’s a text file which includes the color values for the pillars as well as the blue and orange line
+
+camera.py: contains the class used to read the camera
+
+microbit.py: establishes a connection between the microbit on the robot and the jetson nano on the robot 
+
+cvtool.py: checks if the camera is open, then it tries to see if the camera is functional. After that it checks if the cnf file is valid, then it reads that file and writes on it. When all of these happen, it opens the camera creates the correct folders and starts taking pictures 
+
+car.py: after calling all the above the training progress can begin.
+
+Now to look at the program that will be used in the competition 
+mb_swampTM contains:
+
+cnf.txt: it’s a text file which includes values for the different motors of the vehicle, their speed and different color values
+
+dc.py: it reads the values of the cnf file and can start, stop, and set the direction of the robot as well as input new values to the cnf file 
+
+jetson.py: it sends a list of number to jetson and returns the valid list of int numbers
+
+main.py: it establishes a serial communication between the jetson nano and the microbit on the robot to allow the control of the motors
+
+servo.py: after reading the cnf file it can steer the robot. It can also smooth steer the vehicle meaning that in case there are drastically different steer values the transition for one to another will be done in a slower pace to allow the A.I. to correct itself.
+
+Swamp contains:
+
+resnet18.onnx: the A.I. model. As mentioned earlier we used the A.I. training software from NVIDIA and the overall sample size of all the pictures was 30.000
+
+logfile.log: a tool mainly used for debugging. It was a catalog of what the different sensors see, the battery, the steering values, speed, everything and depending on what level you set it for (debug, warn, error) you can easily detect what wrong with the vehicle or the program.
+
+labels.txt: it’s a simple text file which include all the possible steering values the motors can have. That is used for the A.I. to determine what steering it should have depending on what it currently sees.
+
+car.py: after it imports everything it creates the button objects so that we can set which program it should run (run_1 or run_2). Then it configurates the log file and calls the encoder to regulate the speed of the robot. Finally the real program can start and using the A.I. model it can finish the task that has been given
