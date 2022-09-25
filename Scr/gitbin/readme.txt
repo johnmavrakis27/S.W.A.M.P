@@ -2,4 +2,4 @@
 2. mb_receiver: program that runs the microbit receiver, than listen to the joystick and drives the car's motors
 3. remote_control: program that run on jetson nano and collect the training data
 4. swamp: the main program, that uses the classification training model (onnx) to drive the car 
-5. mb_swampTM:
+5. mb_swampTM: the updated version of the mb_receiver
